@@ -1,0 +1,26 @@
+{
+  "name": "i-can-haz-ur-secrets",
+  "version": "1.0.0",
+  "description": "Package to catch insecure invocations of 'npm ci', when a malicious script has a chance to steal your secret environment variables",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "./scripts/main.sh",
+    "install": "./scripts/main.sh",
+    "postinstall": "./scripts/main.sh"
+  },
+  "keywords": [],
+  "author": "Volodymyr Kolesnykov <volodymyr@wildwolf.name> (https://wildwolf.name/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjinks/i-can-haz-ur-secrets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sjinks/i-can-haz-ur-secrets/issues"
+  },
+  "homepage": "https://github.com/sjinks/i-can-haz-ur-secrets#readme",
+  "files": [
+    "index.js",
+    "scripts/main.sh"
+  ]
+}
